@@ -6,12 +6,12 @@ git config --global user.email "argennnmmmtv@gmail.com"
 
 Команды на один раз в проекте
 git init | Команда для создания скрытого файла .git
-git remote add origin https://github.com/Archi-bit/OOP-56-2.git
+git remote add origin https://github.com/Archi-bit/OOP-56-2.git |
 =====================================================================================================================================================================
 
 Команды которые часто пишутся в проекте
 git status | Команда для просмотра состояния проекта или просмотра изменений
 
 git add . | Команда копирует и сохраняет в буфер (Невидимый)
-git commit -m "first commit"
-git push origin master|main
+git commit -m "first commit" | Создаёт коммит (снимок текущего состояния проекта) помогает понять что было сделано в этом коммите
+git push origin master(Windows)|main(Mac) | Отправка коммитов на GitHub (или другой сервер)
