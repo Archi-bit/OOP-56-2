@@ -19,7 +19,24 @@ git push origin master(Windows)|main(Mac) | Отправка коммитов н
 git restore . | Возвращает указанный файл в состояние, в котором он был последний раз закоммичен
 git reset . | для удаления из буфера обмена после команды git add .
 
+git branch     | Для просмотра веток
+git branch branch_name   | Для создания веток
 
 feat: added auth user
 update: reset password user
 fix: bag create news in top bar
+
+branch rules ++++++
+
+feat/name_branch
+fix/name_branch
+hot_fix/name_branch
+update/name_branch
+
+
+
+stage | develop
+
+realise_1.0.0
+
+production
