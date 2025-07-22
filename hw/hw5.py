@@ -10,7 +10,7 @@ def check_admin(is_admin: bool):
 
 @check_admin(is_admin=True)
 def delete_user():
-    print("Пользователь уделен")
+    print("Пользователь удален")
 
 @check_admin(is_admin=False)
 def delete_post():
