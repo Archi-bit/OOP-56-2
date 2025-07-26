@@ -14,8 +14,6 @@
 #
 # from package import Test1, Test2
 
-import random
-
 from package.module1 import *
 
 print(random.randint(1, 10))
